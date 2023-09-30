@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(218, 253, 186,0.7);
+    text-align: center;
+}
+input[type='number']{
+    width: 40px;
+} 
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#linea{
+    display: inline;
+}
+
+button{
+    padding: 10px;
+    margin: 15px;
+    background-color: #13678A;
+    color: #DAFDBA ;
+    border-radius: 8px;
+    box-shadow: -5px 5px 10px rgba(100,100,100,0.5);
+}
+
+h3{
+    padding:10px
+}
+
+div.container{
+    width: 33%;
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+    background-color: rgba(153, 234, 162,0.6);
+    box-shadow: -10px 10px 10px rgba(100,100,100,0.5);
+    border-radius: 8px;
+}
+div.f{
+    padding: 10px;
+}
+h1, h2{
+    color: rgba(18, 103, 138, 1);
+}
+
+/* Color Theme Swatches in Hex */
+.Poseidon-1-hex { color: #DAFDBA; }
+.Poseidon-2-hex { color: #9AEBA3; }
+.Poseidon-3-hex { color: #45C4B0; }
+.Poseidon-4-hex { color: #13678A; }
+.Poseidon-5-hex { color: #012030; }
+
+/* Color Theme Swatches in RGBA */
+.Poseidon-1-rgba { color: rgba(217, 252, 186, 1); }
+.Poseidon-2-rgba { color: rgba(153, 234, 162, 1); }
+.Poseidon-3-rgba { color: rgba(68, 196, 175, 1); }
+.Poseidon-4-rgba { color: rgba(18, 103, 138, 1); }
+.Poseidon-5-rgba { color: rgba(0, 32, 48, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Poseidon-1-hsla { color: hsla(91, 94, 86, 1); }
+.Poseidon-2-hsla { color: hsla(126, 66, 76, 1); }
+.Poseidon-3-hsla { color: hsla(170, 52, 52, 1); }
+.Poseidon-4-hsla { color: hsla(197, 76, 30, 1); }
+.Poseidon-5-hsla { color: hsla(200, 96, 9, 1); }
