@@ -9,7 +9,14 @@ calcular = ()=>{
     x2=document.getElementById('x2').value;
     console.log(x2);
     resultado = ((x2*y1)/x1).toFixed(2)
-    texto = document.getElementById('result')
-    texto.innerText=resultado;
-    console.log(resultado);
+    if (isNaN(resultado)) {
+        texto = document.getElementById('result')
+        texto.innerText="0"
+    }
+    else {
+        texto.innerText=resultado;
+        console.log(resultado);
+    }
+    
+    
 }

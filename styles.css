@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(218, 253, 186,0.7);
+    background-color: #D1D3D4;
     text-align: center;
 }
 input[type='number']{
@@ -24,8 +24,8 @@ input[type=number] {
 button{
     padding: 10px;
     margin: 15px;
-    background-color: #13678A;
-    color: #DAFDBA ;
+    background-color: rgba( 163, 163, 162);
+    color: #E0E1E0 ;
     border-radius: 8px;
     box-shadow: -5px 5px 10px rgba(100,100,100,0.5);
 }
@@ -35,20 +35,21 @@ h3{
 }
 
 div.container{
-    width: 65%;
+    width: 75%;
     margin: auto;
     text-align: left;
     padding: 10px;
-    background-color: rgba(153, 234, 162,0.6);
+    background-color: rgba(220, 227, 89,0.6);
     box-shadow: -10px 10px 10px rgba(100,100,100,0.5);
     border-radius: 8px;
+    border: 1px solid;
 }
 div.f{
     padding: 10px;
 }
-h1, h2{
+/* h1, h2{
     color: rgba(18, 103, 138, 1);
-}
+} */
 
 /* Color Theme Swatches in Hex */
 .Poseidon-1-hex { color: #DAFDBA; }
