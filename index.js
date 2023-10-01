@@ -17,7 +17,12 @@ calcular = ()=>{
         texto = document.getElementById('result')
         texto.innerText=resultado;
         console.log(resultado);
-    }
-    
-    
+    } 
+}
+
+limpiar = ()=>{
+    document.getElementById('result').innerText="";
+    x1=document.getElementById('x1').value="";
+    y1=document.getElementById('y1').value="";
+    x2=document.getElementById('x2').value="";
 }
