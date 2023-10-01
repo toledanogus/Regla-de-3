@@ -14,6 +14,7 @@ calcular = ()=>{
         texto.innerText="0"
     }
     else {
+        texto = document.getElementById('result')
         texto.innerText=resultado;
         console.log(resultado);
     }
